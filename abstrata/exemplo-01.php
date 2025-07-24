@@ -10,7 +10,7 @@ interface Veiculo {
 
 abstract class Automovel implements Veiculo {
 //uma classe só pode herdar de uma classe abstrata.
-//aqui é criada a classe abstrata e é inplementada a interface veiculo.
+//aqui é criada a classe abstrata e é implementada a interface veiculo.
 	public function acelerar($velocidade)
 	{
 
